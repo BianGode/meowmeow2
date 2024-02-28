@@ -10,11 +10,16 @@ import Login from './pages/Login.tsx';
 import Register from './pages/Register.tsx';
 import EditCat from './pages/EditCat.tsx';
 import Profile from './pages/Profile.tsx';
+import Home from './pages/Home.tsx';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      {
+        index: true,
+        element: <Home />
+      },
       {
         path: "Explore",
         element: <Explore />,
