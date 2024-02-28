@@ -1,0 +1,6 @@
+What I want the WebApp to do
+
+As an user I want to be able to login with email and password
+As an user I want to be able to register with email and password
+As an user i must set my username
+As an user I want to be able to create a cat
