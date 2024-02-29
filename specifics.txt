@@ -1,6 +1,12 @@
-What I want the WebApp to do
+User stories 
 
-As an user I want to be able to login with email and password
-As an user I want to be able to register with email and password
-As an user i must set my username
-As an user I want to be able to create a cat
+As an [user] *
+[I want] to be able to login with email and password [so that] I can save and create a cat
+[I want] to be able to register with email and password [so that] I can login
+[I want] to be able sign out [so that] a person that is using my pc doesn't go in my account
+[i must] set my username [so that] my email adress isn't exposed as the cat's owner
+[I want] to be able to create a cat (idk what the [so that] is in this case)
+[I want] to be able to edit a cat [so that] if I entered wrong information of have a better picture I have the abilty to update them.
+[I want] to be able to delete a cat (idk what the [so that] is in this case)
+[I want] to be able to navigate between different pages [so that] I can go to all the pages without typing in the url
+[I want] to be able to create a family and add relations between cats [so that] everyone can see my cats and little families
