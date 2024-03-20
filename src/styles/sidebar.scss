@@ -1,0 +1,29 @@
+.Sidebar {
+  display: none;
+}
+.Sidebar.on {
+  width: 60%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  background-color: white;
+  > .sidebarTopWrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    .logo {
+      height: 80px;
+      width: auto;
+    }
+  }
+  > .sideLinks {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+}
+

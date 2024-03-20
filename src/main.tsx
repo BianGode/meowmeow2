@@ -11,6 +11,7 @@ import Register from './pages/Register.tsx';
 import EditCat from './pages/EditCat.tsx';
 import Profile from './pages/Profile.tsx';
 import Home from './pages/Home.tsx';
+import CatDashboard from './pages/CatDashboard.tsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />
+      },
+      {
+        path:'catdashboard',
+        element: <CatDashboard/>
       },
       {
         path: "Explore",
